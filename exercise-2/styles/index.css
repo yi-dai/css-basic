@@ -13,12 +13,17 @@ body {
 }
 
 h1 {
+    font-family: Georgia;
+    text-transform: uppercase;
+    text-align: center;
     color: #fff;
     font-size: 2em;
     width: 100%;
 }
 
 h2 {
+    font-family: Georgia;
+    text-transform: capitalize;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     color: rgba(255, 255, 255, 0.5);
     font-weight: 100;
@@ -29,19 +34,31 @@ h2 {
 }
 
 p {
+    font-family: Helvetica;
+    font-size: 18px;
     color: AliceBlue;
     line-height: 1.3em;
     text-align: left;
     width: 100%;
 }
 
+p::first-line{
+    font-weight: bold;
+}
+
 .image {
+    background-image: url(../img/background-img.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 300px;
 }
 
 .caption {
+    background-color: white;
+    color: black;
+    opacity:0.75;
+    font-style:italic;
     display: block;
     font-family: 'Playfair Display', serif;
     font-size: 14px;
@@ -51,5 +68,10 @@ p {
     position: relative;
     top: 80%;
     width: 60%;
+}
+
+.caption a:hover{
+    background-color: purple;
+    text-decoration:none;
 }
 
