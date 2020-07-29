@@ -71,7 +71,8 @@ p::first-line{
 }
 
 .caption a:hover{
-    background-color: purple;
     text-decoration:none;
+    background-color: purple;
+    
 }
 
