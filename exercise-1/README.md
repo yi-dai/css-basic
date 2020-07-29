@@ -36,7 +36,7 @@ D <lable>.section > .title {}</lable>
 
 
 
-5.在下列CSS选择器中，优先级从高到低是：( )
+5.在下列CSS选择器中，优先级从高到低是：( 1)
 ```
 <div class="section">
     <h1 id="title" class="title">title</div>
